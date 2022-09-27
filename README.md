@@ -28,6 +28,10 @@ step4.Then threre will be a pop-up,proving that the vulnerability exists.
 
 ![image](https://user-images.githubusercontent.com/59782799/192555063-68ca7281-f045-4a70-9852-d6aea45e24d1.png)
 
+step5.Go to database,and the javascript code has been stored in database:
+
+![image](https://user-images.githubusercontent.com/59782799/192557979-407b6cf1-f029-4525-bc37-79503a702809.png)
+
 ## MISC
 
 Source Code Link:https://downloads.wordpress.org/plugin/wp-best-quiz.zip
