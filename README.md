@@ -1,6 +1,6 @@
 ## Description
 
-There is a stored Cross-Site Scripting vulnerability discovered in the WordPress plugin **WP Best Quiz**.
+The WP Best Quiz WordPress plugin through 1.0 did not properly sanitise the text fields (category name) when creating or editing a quiz form, leading to an authenticated (author+) stored cross-site scripting issue. This could allow medium privilege accounts (such as author and editor) to perform XSS attacks against high privilege ones like administrator.
 
 ## Code Analysis
 
@@ -31,6 +31,8 @@ step4.Then threre will be a pop-up,proving that the vulnerability exists.
 step5.Go to database,and the javascript code has been stored in database:
 
 ![image](https://user-images.githubusercontent.com/59782799/192557979-407b6cf1-f029-4525-bc37-79503a702809.png)
+
+step6.Since the plugin can be accessed by a editor or author,it's possible to gain higher privilege for a lower privilege account.
 
 ## MISC
 
