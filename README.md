@@ -32,7 +32,10 @@ step5.Go to database,and the javascript code has been stored in database:
 
 ![image](https://user-images.githubusercontent.com/59782799/192557979-407b6cf1-f029-4525-bc37-79503a702809.png)
 
-step6.Since the plugin can be accessed by a editor or author,it's possible to gain higher privilege for a lower privilege account.
+step6.Since the plugin can be accessed by a editor or author,it's possible for a lower privilege account to gain higher privilege when a administrator visit the quiz setting menu: 
+
+![image](https://user-images.githubusercontent.com/59782799/192565232-87e6bb8b-b324-4cc9-a46a-d70bc4ece3b8.png)
+
 
 ## MISC
 
